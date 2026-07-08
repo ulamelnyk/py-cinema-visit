@@ -4,10 +4,10 @@ class CinemaHall:
         self.number = number
 
     def movie_session(
-        self,
-        movie_name,
-        customers,
-        cleaning_staff
+            self,
+            movie_name,
+            customers,
+            cleaning_staff,
     ):
         print(f'"{movie_name}" started in hall number {self.number}.')
 
